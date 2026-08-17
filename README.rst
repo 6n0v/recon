@@ -53,4 +53,4 @@ Links
 
 - `Roblox <https://roblox.com/>`_
 - `discord.py <https://github.com/rapptz/discord.py>`_
-- `ro.py <https://github.com/ro-py/ro.py>_`
+- `ro.py <https://github.com/ro-py/ro.py>`_
