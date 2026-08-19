@@ -7,7 +7,13 @@ __title__ = 'recon'
 __author__ = '6n0v'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2026-present 6n0v'
-__version__ = '0.1.0'
+
+from importlib.metadata import PackageNotFoundError, version
+
+try:
+    __version__ = version('roblox')
+except PackageNotFoundError:
+    pass
 
 
 from . import abc as abc

@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools", "setuptools-scm[simple]>=8"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -41,6 +41,10 @@ packages = [
 ]
 include-package-data = true
 
+[tool.setuptools_scm]
+version_scheme = "no-guess-dev"
+local_scheme = "node-and-date"
+
 [tool.black]
 line-length = 125
 skip-string-normalization = true
@@ -64,6 +68,7 @@ include = [
     "roblox/types",
 ]
 exclude = [
+    "**/.*",
     "**/__pycache__",
     "build",
     "dist",

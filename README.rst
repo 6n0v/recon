@@ -26,10 +26,10 @@ To install the library, you can just run the following command:
 .. code:: sh
 
     # Linux/macOS
-    python3 setup.py install
+    python3 -m pip install .
 
     # Windows
-    py -3 setup.py install
+    py -3 -m pip install .
 
 Quick Example
 --------------
