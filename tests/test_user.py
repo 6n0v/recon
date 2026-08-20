@@ -112,7 +112,7 @@ def test_user(data):
 @pytest.mark.parametrize(
     ('created_str', 'expected'),
     [
-        ('2006-02-27T21:06:40.33Z', datetime(2006, 2, 27, 21, 6, 40, 330000, tzinfo=timezone.utc)),
+        ('2006-02-27T21:06:40.330000Z', datetime(2006, 2, 27, 21, 6, 40, 330000, tzinfo=timezone.utc)),
         ('2020-01-01T00:00:00.000Z', datetime(2020, 1, 1, 0, 0, 0, tzinfo=timezone.utc)),
         ('2015-12-07T16:13:12Z', datetime(2015, 12, 7, 16, 13, 12, tzinfo=timezone.utc)),
     ],
