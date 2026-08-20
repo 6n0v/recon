@@ -41,7 +41,7 @@ Quick Example
     import roblox
 
     async def main():
-        async with Roblox() as client:
+        async with roblox.Roblox() as client:
             await client.get_user(1)
 
     asyncio.run(main())
