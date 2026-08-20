@@ -6,7 +6,6 @@ build-backend = "setuptools.build_meta"
 name = "roblox"
 description = "A lightweight Python wrapper for the Roblox API focused on user data and economy."
 readme = { file = "README.rst", content-type = "text/x-rst" }
-license-files = ["LICEN[CS]E*"]
 requires-python = ">=3.8"
 authors = [{ name = "6n0v" }]
 classifiers = [
@@ -51,6 +50,7 @@ packages = [
     "roblox.types",
 ]
 include-package-data = true
+license-files = ["LICEN[CS]E*"]
 
 [tool.setuptools_scm]
 version_scheme = "no-guess-dev"
