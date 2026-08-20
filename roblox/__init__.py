@@ -8,15 +8,8 @@ __author__ = '6n0v'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2026-present 6n0v'
 
-from importlib.metadata import PackageNotFoundError, version
-
-try:
-    __version__ = version('roblox')
-except PackageNotFoundError:
-    pass
-
-
 from . import abc as abc
+from ._version import __version__
 from .client import Roblox
 from .errors import (
     Forbidden,

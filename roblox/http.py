@@ -31,7 +31,7 @@ from typing import TYPE_CHECKING, Any, Literal
 
 import aiohttp
 
-from . import __version__
+from ._version import __version__
 from .errors import (
     Forbidden,
     GamepassAlreadyOwned,
