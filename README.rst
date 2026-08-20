@@ -1,5 +1,5 @@
-recon
-======
+roblox.py
+==========
 
 A lightweight Python wrapper for the Roblox API focused on user data and economy.
 
@@ -26,10 +26,10 @@ To install the library, you can just run the following command:
 .. code:: sh
 
     # Linux/macOS
-    python3 -m pip install .
+    python3 -m pip install roblox.py
 
     # Windows
-    py -3 -m pip install .
+    py -3 -m pip install roblox.py
 
 Quick Example
 --------------
