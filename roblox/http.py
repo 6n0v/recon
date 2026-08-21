@@ -82,7 +82,7 @@ class Http:
         self.loop: asyncio.AbstractEventLoop | None = None
 
     def __str__(self) -> str:
-        return f'RobloxPy (https://github.com/6n0v/roblox.py {__version__}) Python/{sys.version_info[0]} aiohttp/{aiohttp.__version__}'
+        return f'PyBlox (https://github.com/6n0v/pyblox {__version__}) Python/{sys.version_info[0]} aiohttp/{aiohttp.__version__}'
 
     async def close(self):
         if self.session == None:

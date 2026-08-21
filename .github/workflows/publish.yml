@@ -12,7 +12,7 @@ jobs:
 
     environment:
       name: pypi
-      url: https://pypi.org/p/roblox.py
+      url: https://pypi.org/p/py-blox
 
     permissions:
       id-token: write
