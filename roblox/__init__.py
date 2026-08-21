@@ -24,8 +24,12 @@ __all__ = (
     '__version__',
 )
 
+try:
+    from ._version import __version__
+except ImportError:
+    __version__ = 'unknown'
+
 from . import abc as abc
-from ._version import __version__
 from .client import Roblox
 from .errors import (
     Forbidden,
