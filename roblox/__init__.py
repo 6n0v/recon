@@ -8,6 +8,22 @@ __author__ = '6n0v'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2026-present 6n0v'
 
+__all__ = (
+    'Forbidden',
+    'Gamepass',
+    'InternalServerError',
+    'NotFound',
+    'PartialGamepass',
+    'PartialUser',
+    'PendingTransactionAlreadyExists',
+    'Roblox',
+    'Unauthorized',
+    'UnknownStatus',
+    'User',
+    'WrongDataPassed',
+    '__version__',
+)
+
 from . import abc as abc
 from ._version import __version__
 from .client import Roblox
@@ -22,18 +38,3 @@ from .errors import (
 )
 from .gamepass import Gamepass, PartialGamepass
 from .user import PartialUser, User
-
-__all__ = (
-    'Forbidden',
-    'Gamepass',
-    'InternalServerError',
-    'NotFound',
-    'PartialGamepass',
-    'PartialUser',
-    'PendingTransactionAlreadyExists',
-    'Roblox',
-    'Unauthorized',
-    'UnknownStatus',
-    'User',
-    'WrongDataPassed',
-)
